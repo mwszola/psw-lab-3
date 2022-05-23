@@ -1,3 +1,10 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿namespace Lab3;
 
-Console.WriteLine("Hello, World!");
+internal static class Program
+{
+    public static void Main()
+    {
+        var color = RgbController.GetColor();
+        RgbController.DisplayColor(color);
+    }
+}

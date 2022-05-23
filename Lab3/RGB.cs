@@ -1,15 +1,19 @@
 namespace Lab3;
 
-public class RGB
+public class Rgb
 {
-    private int R_value { get; set; }
-    private int G_value { get; set; }
-    private int B_value { get; set; }
+    public int RValue { get; set; }
+    public int GValue { get; set; }
+    public int BValue { get; set; }
 
-    public RGB(int rValue, int gValue, int bValue)
+    public Rgb()
     {
-        R_value = rValue;
-        G_value = gValue;
-        B_value = bValue;
+    }
+
+    public Rgb(int rValue, int gValue, int bValue)
+    {
+        RValue = rValue;
+        GValue = gValue;
+        BValue = bValue;
     }
 }
